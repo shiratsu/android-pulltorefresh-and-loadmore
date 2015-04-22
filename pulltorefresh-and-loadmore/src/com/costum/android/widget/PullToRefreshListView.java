@@ -53,10 +53,10 @@ public class PullToRefreshListView extends ListView implements OnScrollListener 
 	protected LayoutInflater mInflater;
 
 	// header
-	private RelativeLayout mRefreshView;
-	private TextView mRefreshViewText;
+	public RelativeLayout mRefreshView;
+    public TextView mRefreshViewText;
 	private ImageView mRefreshViewImage;
-	private ProgressBar mRefreshViewProgress;
+    public ProgressBar mRefreshViewProgress;
 	private TextView mRefreshViewLastUpdated;
 
 	protected int mCurrentScrollState;
